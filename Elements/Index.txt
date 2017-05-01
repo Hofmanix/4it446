@@ -1,0 +1,5 @@
+*** Variables ***
+${searchInput}							id=frm-homepageSearch-homepageSearch-phrase
+${firstAutocompleteResult}	xpath=(//div[@id='eac-container-frm-homepageSearch-homepageSearch-phrase']/ul/li)[1]
+${headerTitle}							css=h1.header__headline
+${destinationNav}						css=div.stick--destination

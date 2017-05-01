@@ -1,0 +1,5 @@
+*** Variables ***
+${url}						https://www.cestujlevne.com/
+${browser}				gc
+${searchKeyword}	gruz
+${countryName}		Gruzie
