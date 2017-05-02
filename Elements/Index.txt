@@ -1,5 +1,14 @@
 *** Variables ***
-${searchInput}							id=frm-homepageSearch-homepageSearch-phrase
+${searchInput}				id=frm-homepageSearch-homepageSearch-phrase
 ${firstAutocompleteResult}	xpath=(//div[@id='eac-container-frm-homepageSearch-homepageSearch-phrase']/ul/li)[1]
-${headerTitle}							css=h1.header__headline
-${destinationNav}						css=div.stick--destination
+${headerTitle}				css=h1.header__headline
+${destinationNav}			css=div.stick--destination
+${my_account_button}		xpath=//*[@id="navbar-collapse"]/ul/li[7]/a
+${email_input}				xpath=//*[@id="frm-signForm-signForm-username"]
+${password_input}			xpath=//*[@id="frm-signForm-signForm-password"]
+${login_button}				css=button.header-form__submit
+${nick_header}				css=h1.header__headline 
+${avatar}					xpath=//img[contains(@alt,'Avatar uživatele m.obergruber')][1]
+${cms_link}					xpath=//*[@id="navbar-collapse"]/ul/li[7]/div/ul/li[2]/a
+${nick_locator}				xpath=//th[contains(@class,'profile__name')][1]
+${logout_link}				xpath=//span[contains(text(),'Odhlásit se')][1]

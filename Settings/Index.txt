@@ -1,5 +1,8 @@
 *** Variables ***
-${url}						https://www.cestujlevne.com/
+${url}					https://www.cestujlevne.com/
 ${browser}				gc
-${searchKeyword}	gruz
-${countryName}		Gruzie
+${searchKeyword}		gruz
+${countryName}			Gruzie
+${email}				m.obergruber@gmail.com
+${password}				robot
+${nick}					m.obergruber
