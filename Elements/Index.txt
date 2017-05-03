@@ -3,7 +3,9 @@ ${searchInput}				id=frm-homepageSearch-homepageSearch-phrase
 ${firstAutocompleteResult}	xpath=(//div[@id='eac-container-frm-homepageSearch-homepageSearch-phrase']/ul/li)[1]
 ${headerTitle}				css=h1.header__headline
 ${destinationNav}			id=stick
-${my_account_button}		xpath=//*[@id="navbar-collapse"]/ul/li[7]/a
+${map}								id=map
+${firstDiscountTicket}	xpath=//div[@class="tickets"]//div[@class="media"]
+${my_account_button}	xpath=//*[@id="navbar-collapse"]/ul/li[7]/a
 ${email_input}				xpath=//*[@id="frm-signForm-signForm-username"]
 ${password_input}			xpath=//*[@id="frm-signForm-signForm-password"]
 ${login_button}				css=button.header-form__submit
