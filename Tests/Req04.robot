@@ -8,7 +8,7 @@ Test Setup			Open Page			${url}	${browser}
 Test Teardown		Close Browser
 
 *** Test Cases ***
-Destination page has submenu
+Discount ticket has map
 	Wait Then Click	${firstDiscountTicket}
 	Wait Until Element Is Visible	${map}
 	Capture Page Screenshot
