@@ -11,7 +11,6 @@ Test Teardown		Close Browser
 Homepage search input with autocomplete
 	Wait Until Element Is Visible	${searchInput}
 	Input Text	${searchInput}	${searchKeyword}
-	Wait Until Element Is Visible	${firstAutocompleteResult}
-	Click Element	${firstAutocompleteResult}
+	Wait Then Click	${firstAutocompleteResult}
 	Wait Until Element Contains	${headerTitle}	${countryName}
 	Capture Page Screenshot

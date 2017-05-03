@@ -4,6 +4,6 @@ Open Page
 	Open Browser	${urlPar}	${browserPar}
 	Maximize Browser Window
 Wait Then Click
-	[Arguments]						${button}
-	Wait Until Element Is Visible	${button}
-	Click Element					${button}
+	[Arguments]						${element}
+	Wait Until Element Is Visible	${element}
+	Click Element					${element}
