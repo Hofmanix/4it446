@@ -13,6 +13,6 @@ ${nick_header}				css=h1.header__headline
 ${avatar}					xpath=//img[contains(@alt,'Avatar uživatele m.obergruber')][1]
 ${cms_link}					xpath=//*[@id="navbar-collapse"]/ul/li[7]/div/ul/li[2]/a
 ${nick_locator}				xpath=//th[contains(@class,'profile__name')][1]
-${logout_link}				xpath=//span[contains(text(),'Odhlásit se')][1]
+${logout_link}				xpath=/html/body/div[1]/div/div[3]/div/ul/li[3]/a
 ${footer}					//div[contains(@class, 'sec-footer')][1]
 ${footer_link}				${footer}//a

@@ -10,11 +10,7 @@ Test Teardown		Close Browser
 *** Test Cases ***
 Login And Logout
 	# Login
-	Wait Then Click					${my_account_button}
-	Wait Until Element Is Visible	${email_input}
-	Input Text						${email_input}		${email}
-	Input Password					${password_input}	${password}
-	Click Element					${login_button}
+	Login
 	Wait Then Click					${avatar}
 	Wait Then Click					${cms_link}
 	Wait Until Element Is Visible	${nick_locator}

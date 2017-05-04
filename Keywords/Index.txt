@@ -7,3 +7,9 @@ Wait Then Click
 	[Arguments]						${element}
 	Wait Until Element Is Visible	${element}
 	Click Element					${element}
+Login
+	Wait Then Click					${my_account_button}
+	Wait Until Element Is Visible	${email_input}
+	Input Text						${email_input}		${email}
+	Input Password					${password_input}	${password}
+	Click Element					${login_button}
