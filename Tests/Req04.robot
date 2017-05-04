@@ -10,5 +10,5 @@ Test Teardown		Close Browser
 *** Test Cases ***
 Discount ticket has map
 	Wait Then Click	${firstDiscountTicket}
-	Wait Until Element Is Visible	${map}
+	Wait Until Element Is Visible	${map}		10
 	Capture Page Screenshot
