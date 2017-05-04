@@ -3,6 +3,7 @@ Open Page
 	[Arguments]		${urlPar}	${browserPar}
 	Open Browser	${urlPar}	${browserPar}
 	Maximize Browser Window
+
 Wait Then Click
 	[Arguments]						${element}
 	Wait Until Element Is Visible	${element}
