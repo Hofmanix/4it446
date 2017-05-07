@@ -1,4 +1,9 @@
 *** Settings ***
+
+# run test case by this command
+# robot -d Results/Req01 Tests/Req01.robot
+
+
 Library	Selenium2Library
 Resource	../Settings/Index.txt
 Resource	../Keywords/Index.txt
