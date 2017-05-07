@@ -19,6 +19,7 @@ Logout
 	Wait Then Click					${logout_link}
 
 
+
 Login With New Password
 	Wait Then Click						${my_account_button}
 	Wait Until Element Is Visible		${email_input}
@@ -27,25 +28,23 @@ Login With New Password
 	Click Element						${login_button}
 
 
-Change To New Password
+Go To Change Password
 	Wait Then Click						${avatar}
 	Wait Then Click						${cms_link}
 	Wait Until Element Is Visible		${nick_locator}
 	Wait Until Element Contains			${nick_locator}		${nick}
 	Wait Then Click						${change_pass}
 	Wait Until Element Is Visible		${old_pass_form}
+
+Change To New Password
+	Go To Change Password
 	Input Password						${old_pass_form}	${password}
 	Input Password						${new_pass_form}	${new_password}
 	Input Password						${new_pass_form2}	${new_password}
 	click button  						${change_pass_button}
 
 Change To Old Password
-	Wait Then Click						${avatar}
-	Wait Then Click						${cms_link}
-	Wait Until Element Is Visible		${nick_locator}
-	Wait Until Element Contains			${nick_locator}		${nick}
-	Wait Then Click						${change_pass}
-	Wait Until Element Is Visible		${old_pass_form}
+	Go To Change Password
 	Input Password						${old_pass_form}	${new_password}
 	Input Password						${new_pass_form}	${password}
 	Input Password						${new_pass_form2}	${password}
