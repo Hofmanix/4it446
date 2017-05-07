@@ -20,8 +20,5 @@ Login And Logout
 	Wait Until Element Is Visible	${nick_locator}
 	Wait Until Element Contains		${nick_locator}		${nick}
 	Capture Page Screenshot
-
-	# Logout
-	Wait Then Click					${avatar}
-	Wait Then Click					${logout_link}
+	Logout
 	Capture Page Screenshot

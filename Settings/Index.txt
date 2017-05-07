@@ -5,4 +5,5 @@ ${searchKeyword}		gruz
 ${countryName}			Gruzie
 ${email}				m.obergruber@gmail.com
 ${password}				robot
+${new_password}		robot2
 ${nick}					m.obergruber

@@ -16,3 +16,9 @@ ${nick_locator}				xpath=//th[contains(@class,'profile__name')][1]
 ${logout_link}				xpath=/html/body/div[1]/div/div[3]/div/ul/li[3]/a
 ${footer}					//div[contains(@class, 'sec-footer')][1]
 ${footer_link}				${footer}//a
+${change_pass}				xpath=/html/body/div[3]/div[1]/div[2]/div/div[2]/table/tbody/tr[2]/td[5]/a
+${old_pass_form}			id=frm-changePasswordForm-changePassword-oldPassword
+${new_pass_form}			id=frm-changePasswordForm-changePassword-password1
+${new_pass_form2}			id=frm-changePasswordForm-changePassword-password2
+${change_pass_button}		css=#frm-changePasswordForm-changePassword > table > tbody > tr:nth-child(4) > td > input
+
