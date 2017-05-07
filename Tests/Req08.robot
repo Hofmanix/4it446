@@ -18,6 +18,7 @@ Change Password
 	Logout
 	Login With New Password
 	Change To Old Password
+	Logout
 
 
 
