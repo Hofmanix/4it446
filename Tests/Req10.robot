@@ -1,7 +1,7 @@
 *** Settings ***
 
 # run test case by this command
-# robot -d Results/Req04 Tests/Req04.robot
+# robot -d Results/Req10 Tests/Req10.robot
 
 Library	Selenium2Library
 Resource	../Settings/Index.txt
