@@ -18,7 +18,7 @@ Edit user info
 	Click Element	${edit_info_link}
 	Input Text		${first_name_input}		${firstName}
 	Input Text		${last_name_input}		${lastName}
-	Select Country	${newHome}		${country_nemec}
+	Input Text		${home_name_input}		${newHome}
 	Input Text		${description_input}	${description}
 	Select From List By Value		${gender_select}		${female_gender}
 	Capture Page Screenshot
@@ -27,9 +27,8 @@ Edit user info
 	Click Element	${edit_info_link}
 	Clear Element Text 	${first_name_input}
 	Clear Element Text	${last_name_input}
-	Select Country	${oldHome}	${country_cesk}
+	Input Text		${home_name_input}		${oldHome}
 	Clear Element Text	${description_input}
 	Select From List By Value		${gender_select}		${male_gender}
 	Click Element 	${save_changes_button}
 	Capture Page Screenshot
-

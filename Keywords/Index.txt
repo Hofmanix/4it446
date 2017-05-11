@@ -51,12 +51,6 @@ Change To Old Password
 	Input Password						${new_pass_form2}	${password}
 	click button  						${change_pass_button}
 
-Select Country
-	[Arguments]							${country}		${wait_for}
-	Input Text		${home_name_input}		${country}
-	Wait Until Element Is Visible		${wait_for}
-	Click Element	${wait_for}
-
 
 
 

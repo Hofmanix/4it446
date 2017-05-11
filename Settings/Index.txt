@@ -9,8 +9,8 @@ ${new_password}			robot2
 ${nick}					m.obergruber
 ${firstName}			Michal
 ${lastName}				Obergruber
-${oldHome}				Česk
-${newHome}				Němec
+${oldHome}				Česká republika
+${newHome}				Německo
 ${description}			Robot framework test
 ${female_gender}		female
 ${male_gender}			male
