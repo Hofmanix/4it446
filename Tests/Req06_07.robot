@@ -15,8 +15,7 @@ Test Teardown		Close Browser
 Login And Logout
 	# Login
 	Login
-	Wait Then Click					${avatar}
-	Wait Then Click					${cms_link}
+	Go To CMS
 	Wait Until Element Is Visible	${nick_locator}
 	Wait Until Element Contains		${nick_locator}		${nick}
 	Capture Page Screenshot

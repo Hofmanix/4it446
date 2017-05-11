@@ -21,4 +21,13 @@ ${old_pass_form}			id=frm-changePasswordForm-changePassword-oldPassword
 ${new_pass_form}			id=frm-changePasswordForm-changePassword-password1
 ${new_pass_form2}			id=frm-changePasswordForm-changePassword-password2
 ${change_pass_button}		css=#frm-changePasswordForm-changePassword > table > tbody > tr:nth-child(4) > td > input
+${edit_info_link}			xpath=/html/body/div[3]/div[1]/div[2]/div/div[2]/table/tbody/tr[2]/td[1]/a
+${first_name_input}			id=frm-userForm-userForm-firstName
+${last_name_input}			id=frm-userForm-userForm-lastName
+${home_name_input}			id=frm-userForm-userForm-homeName
+${description_input}		id=frm-userForm-userForm-description
+${gender_select}			id=frm-userForm-userForm-gender
+${country_cesk}				xpath=//*[@id="eac-container-frm-userForm-userForm-homeName"]/ul/li/div/span/b
+${country_nemec}			xpath=//*[@id="eac-container-frm-userForm-userForm-homeName"]/ul/li/div/span/b
+${save_changes_button}		xpath=//*[@id="frm-userForm-userForm"]/div[6]/button
 

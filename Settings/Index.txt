@@ -5,5 +5,13 @@ ${searchKeyword}		gruz
 ${countryName}			Gruzie
 ${email}				m.obergruber@gmail.com
 ${password}				robot
-${new_password}		robot2
+${new_password}			robot2
 ${nick}					m.obergruber
+${firstName}			Michal
+${lastName}				Obergruber
+${oldHome}				Česk
+${newHome}				Němec
+${description}			Robot framework test
+${female_gender}		female
+${male_gender}			male
+

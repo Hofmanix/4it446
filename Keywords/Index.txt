@@ -18,7 +18,9 @@ Logout
 	Wait Then Click					${avatar}
 	Wait Then Click					${logout_link}
 
-
+Go To CMS
+	Wait Then Click						${avatar}
+	Wait Then Click						${cms_link}
 
 Login With New Password
 	Wait Then Click						${my_account_button}
@@ -29,8 +31,7 @@ Login With New Password
 
 
 Go To Change Password
-	Wait Then Click						${avatar}
-	Wait Then Click						${cms_link}
+	Go To CMS
 	Wait Until Element Is Visible		${nick_locator}
 	Wait Until Element Contains			${nick_locator}		${nick}
 	Wait Then Click						${change_pass}
@@ -49,6 +50,12 @@ Change To Old Password
 	Input Password						${new_pass_form}	${password}
 	Input Password						${new_pass_form2}	${password}
 	click button  						${change_pass_button}
+
+Select Country
+	[Arguments]							${country}		${wait_for}
+	Input Text		${home_name_input}		${country}
+	Wait Until Element Is Visible		${wait_for}
+	Click Element	${wait_for}
 
 
 
