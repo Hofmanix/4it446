@@ -30,4 +30,15 @@ ${gender_select}			id=frm-userForm-userForm-gender
 ${country_cesk}				xpath=//*[@id="eac-container-frm-userForm-userForm-homeName"]/ul/li/div/span/b
 ${country_nemec}			xpath=//*[@id="eac-container-frm-userForm-userForm-homeName"]/ul/li/div/span/b
 ${save_changes_button}		xpath=//*[@id="frm-userForm-userForm"]/div[6]/button
+${first_ticket}				xpath=/html/body/div[3]/div/div[3]/div/div[1]/div/a
+${add_comment_button}		xpath=//*[@id="frm-comments-commentForm-addComment"]/div[4]/button
+${comment_area}				id=frm-comments-commentForm-addComment-content
+${name_comment_input}		id=frm-comments-commentForm-addComment-name
+${email_comment_input}		id=frm-comments-commentForm-addComment-email
+${not_robot_alert}			xpath=//*[@id="snippet--flashes"]/div
+${forum_link}				xpath=//*[@id="navbar-collapse"]/ul/li[4]/a
+${first_forum_article}		xpath=//*[@id="snippet--"]/div[1]/div[1]/a
+${post_area}				id=frm-addPostForm-postForm-content
+${add_post_button}			xpath=//*[@id="frm-addPostForm-postForm"]/div[2]/div[2]/button
+${delete_post}				xpath=//span[text()="Smazat"]
 

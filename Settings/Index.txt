@@ -14,4 +14,8 @@ ${newHome}				Němec
 ${description}			Robot framework test
 ${female_gender}		female
 ${male_gender}			male
+${comment}				Comment
+${comment_name}			Robot Tester
+${comment_email}		robot@tester.com
+${post}					Robot test post
 
